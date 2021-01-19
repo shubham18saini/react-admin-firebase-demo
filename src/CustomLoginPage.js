@@ -4,10 +4,10 @@ import { Login, LoginForm } from "react-admin";
 
 const CustomLoginForm = props => (
   <div>
-    <div style={{fontFamily: "monospace", marginLeft: '15px'}}>
+    {/* <div style={{fontFamily: "monospace", marginLeft: '15px'}}>
       <p>Username: test@example.com</p>
       <p>Password: password</p>
-    </div>
+    </div> */}
     <LoginForm {...props} />
   </div>
 );
